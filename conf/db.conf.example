@@ -1,0 +1,22 @@
+# Database configuration
+# ~~~~~
+# IMPORTANT: If you plan to use JDBC, remember to enable the "javaJdbc" plugin
+# in this application's "build.sbt" file.
+#
+# It is recommended not to track this file in your version control system.
+#
+# You can declare as many datasources as you want.
+# By convention, the default datasource is named `default`
+#
+# db.default.driver=org.h2.Driver
+# db.default.url="jdbc:h2:mem:play"
+# db.default.username=sa
+# db.default.password=""
+
+# Evolutions
+# ~~~~~
+# You can disable evolutions if needed
+# play.evolutions.enabled=false
+
+# You can disable evolutions for a specific datasource if necessary
+# play.evolutions.db.default.enabled=false
